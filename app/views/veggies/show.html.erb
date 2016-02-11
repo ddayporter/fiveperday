@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Count:</strong>
+  <%= @veggy.count %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @veggy.date %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @veggy.user %>
+</p>
+
+<%= link_to 'Edit', edit_veggy_path(@veggy) %> |
+<%= link_to 'Back', veggies_path %>
